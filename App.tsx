@@ -6,15 +6,23 @@ const App = () => {
     <ScrollView>
       <View style={styles.container}>
         <Image
-          source={{ uri: 'https://example.com/image1.jpg' }}
+          source={require('./src/images/taschannel.jpg')}
           style={styles.image}
         />
         <Image
-          source={{ uri: 'https://example.com/image2.jpg' }}
+          source={require('./src/images/taschannelmotif.jpg')}
           style={styles.image}
         />
         <Image
-          source={{ uri: 'https://example.com/image3.jpg' }}
+          source={require('./src/images/taschannelcute.jpg')}
+          style={styles.image}
+        />
+        <Image
+          source={require('./src/images/taschannelyellow.jpg')}
+          style={styles.image}
+        />
+         <Image
+          source={require('./src/images/taschannelpink.jpg')}
           style={styles.image}
         />
         {/* Tambahkan lebih banyak gambar sesuai kebutuhan */}
